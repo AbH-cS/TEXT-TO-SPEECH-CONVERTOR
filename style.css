@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(53, 2, 47);
+    color: #fff;
+}
+
+.container {
+    display: table;
+    margin: 100px auto 0;
+}
+
+.container h1 {
+    margin-bottom: 40px;
+    font-weight: 450;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: orangered;
+    border-bottom: 3px solid #fff;
+}
+
+.container .box {
+    min-height: 200px;
+    width: 575px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background: rgba(159, 158, 158, 0.391);
+    color: #fff;
+    text-align: start;
+    contenteditable: true;
+    padding: 30px 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.box::placeholder{
+    font-size: 14px;
+}
+
+.container .bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .bottom .select {
+    flex: 1;
+    height: 42px;
+    border-radius: 50px;
+    background: rgba(159, 158, 158, 0.391);
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.select select {
+    flex: 1;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.select button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.btn {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    pointer-events: none;
+}
+
+.btn img {
+    height: 10px;
+    width: 15px;
+}
+
+.select select option {
+    background: rgb(8, 8, 8);
+    color: #fff;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    background: orangered;
+    color: #fff;
+    gap: 10px;
+    height: 40px;
+    width: 121px;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn2 img{
+    width: 20px;
+    height: 20px;
+}
